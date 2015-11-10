@@ -1,0 +1,12 @@
+[
+ {
+    "name": "crate-charts",
+    "uri": "plugins/crate-charts/charts.js",
+    "routing": {
+      "/charts": {
+        "templateUrl": "plugins/crate-charts/charts.html",
+        "controller": "ChartController"
+      }
+    }
+  }
+]

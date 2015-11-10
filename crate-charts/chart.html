@@ -1,0 +1,25 @@
+<div class="page-container">
+
+  <div class="row">
+    <div class="col-sm-12">
+
+      <div class="page-header">
+        <h1>Visualize some simple queries!</h1>
+      </div>
+      <p>{{ error }}</p>
+      <textarea ng-model="query" rows="4" cols="50">
+      </textarea>
+      <button ng-click="runQuery()">GO</button>
+
+      <nvd3-line-chart id="line"
+        data="data"
+        height=500
+        showXAxis="true"
+        showYAxis="true"
+        tooltips="true"
+        interactive="true"></nvd3-line-chart>
+      </canvas>
+
+    </div>
+  </div>
+</div>
